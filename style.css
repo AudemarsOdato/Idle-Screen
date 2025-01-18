@@ -1,0 +1,48 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Shantell Sans", serif;
+}
+
+body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(191, 191, 191);
+}
+
+.box {
+        background-color: rgb(228, 228, 228);
+        border: 12px solid rgb(45, 23, 23);
+        border-radius: 32px;
+        width: 70vw;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+
+#timezone {
+        color: rgba(59, 59, 59, 0.733);
+}
+
+#time, #date {
+        color: rgb(45, 23, 23);
+}
+
+#date, #timezone {
+        font-size: 1.5em;
+}
+
+#time {
+        font-size: 8em;
+}
+
+#selectTimezone {
+        justify-self: end;
+}

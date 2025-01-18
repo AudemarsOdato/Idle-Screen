@@ -1,0 +1,24 @@
+Here I learn how to use npm and external libraries
+
+First I initialized my project with npm that adds 'package.js' in my project folder
+`npm init` `npm init --yes` to skip
+
+Then I installed dayjs for easier formating of the date and time as well as the timezone
+`npm i dayjs`
+
+I also learned to link the .min.js files to the html from the node_module files
+I used the .extend function to add plugins in my js files by linking the plugin file to
+the html file for the .extend function to work
+
+I also installed micromodal to change the timezone as indicated here as an inspiration
+`https://imgur.com/a/vFY6Sdl`
+But I found it hard to create a modal window is set aside the idea for the future and
+I'll try to create my own modal window first to uderstand it deeper, maybe on some past project
+So, I uninstalled the micromodal.js using `npm uninstall micromodal --save`
+
+Using external libraries means understanding how to use them
+
+npm commands
+`npm init` `npm init --yes`
+`npm install --save` `npm i --save`
+`npm uninstall`
