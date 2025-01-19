@@ -27,22 +27,22 @@ body {
 }
 
 
-#timezone {
+#timezones {
         color: rgba(59, 59, 59, 0.733);
+        background-color: rgb(228, 228, 228);
+        border: none;
+        font-weight: bolder;
+        overflow: hidden;
 }
 
 #time, #date {
         color: rgb(45, 23, 23);
 }
 
-#date, #timezone {
+#date, #timezones {
         font-size: 1.5vw;
 }
 
 #time {
         font-size: 9vw;
-}
-
-#selectTimezone {
-        justify-self: end;
 }
