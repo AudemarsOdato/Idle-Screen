@@ -18,6 +18,9 @@ So, I uninstalled the micromodal.js using `npm uninstall micromodal --save`
 
 Using external libraries means understanding how to use them
 
+Created a branch version where you can change timezone using select element
+This branch will be foundational for learning git and github later on
+
 npm commands
 `npm init` `npm init --yes`
 `npm install --save` `npm i --save`
