@@ -33,6 +33,7 @@ body {
 
 #time, #date {
         color: rgb(45, 23, 23);
+        cursor: pointer;
 }
 
 #date, #timezone {
@@ -46,3 +47,14 @@ body {
 #selectTimezone {
         justify-self: end;
 }
+
+.dark-mode {
+        border-color: rgb(228, 228, 228);
+        background-color: rgb(45, 23, 23);
+}
+
+/* 
+        Background dark
+        text/border rgb(228, 228, 228)
+        timezone color rgb(191, 191, 191)
+*/
